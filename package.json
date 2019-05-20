@@ -1,0 +1,32 @@
+{
+  "name": "test-api-github",
+  "version": "1.0.0",
+  "description": "Access to API github for an user",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mavarona/test-api-github.git"
+  },
+  "keywords": [
+    "nodejs",
+    "API",
+    "github"
+  ],
+  "author": "mavlmac <mavaronamac@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mavarona/test-api-github/issues"
+  },
+  "homepage": "https://github.com/mavarona/test-api-github#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "nock": "^10.0.6"
+  }
+}
